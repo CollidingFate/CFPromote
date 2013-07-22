@@ -37,10 +37,10 @@ to the data folder.
 Permission Nodes
 ----------------
 
-| Node                  | Description                                                                                 | Default  |
-| --------------------- | ------------------------------------------------------------------------------------------- | -------- |
-| cfpromote.getpromoted | Players with this permission node will get promoted when interacting with a promotion sign. | Nobody   |
-| cfpromote.placesign   | This permission node allows server staff to place down a promotion sign.                    | Only OPs |
+| Node                  | Description                                                    | Default  |
+| --------------------- | -------------------------------------------------------------- | -------- |
+| cfpromote.getpromoted | Allows the player to be promoted by clicking a promotion sign. | Nobody   |
+| cfpromote.placesign   | Allows the player to place down a promotion sign.              | Only OPs |
 
 
 Compiling
