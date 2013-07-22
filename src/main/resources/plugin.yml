@@ -1,0 +1,19 @@
+name: CFPromote
+version: 0.0.1
+author: Didz
+description: Click sign, get promoted.
+website: http://collidingfate.org/
+main: org.collidingfate.cfpromote.CFPromote
+depends: [Vault]
+
+commands:
+  {}
+
+permissions:
+  cfpromote.placesign:
+    description: Allows the player to place down a promotion sign
+    default: op
+
+  cfpromote.getpromoted:
+    description: Allows the player to be promoted by clicking a promotion sign
+    default: false
